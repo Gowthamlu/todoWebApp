@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b68df0;
+}
+
+#todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+#task-list {
+    list-style: none;
+
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#task-input {
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.Addbtn {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #edcdb4;
+    border-width: 1px;
+}
+
+.task button {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #e8dfa2;
+    border-width: 1px;
+
+
+}
